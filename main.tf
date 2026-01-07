@@ -1,6 +1,6 @@
 resource "aws_instance" "poc29" {
-  ami           = "i-02bf89fb887bb1cd0"
-  instance_type = "t2.medium"
+  ami           = "ami-083dd800ab194788b"
+  instance_type = "t4g.medium"
 
   tags = {
     Name = "HelloWorld"
