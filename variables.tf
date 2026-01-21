@@ -4,3 +4,4 @@ variable "aws_region" {
 variable "bucket_name" {
   default = "project29-terraform-s3-bucket"
 }
+
